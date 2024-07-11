@@ -1,0 +1,47 @@
+.primary-text {
+    color: blue; 
+}
+.secondary-text {
+    color: orange; 
+}
+.background-primary {
+    background-color: blue; 
+}
+.background-secondary {
+    background-color: orange; 
+}
+.gradient-linear {
+    background: linear-gradient(to right, pink, blue);
+}
+
+.gradient-radial {
+    background: radial-gradient(circle, pink, blue);
+}
+.background-image {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCfkXtXb1KsqKkx6wAHbNXA3Eh97n9mS8KQ&s/400');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+.background-repeat {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCfkXtXb1KsqKkx6wAHbNXA3Eh97n9mS8KQ&s/100');
+    background-repeat: repeat;
+    padding: 50px;
+    color: white;
+    margin: 10px 0;
+}
+
+.background-position {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRCfkXtXb1KsqKkx6wAHbNXA3Eh97n9mS8KQ&s/400');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 50px;
+    color: #333;
+    margin: 10px 0;
+}
+
+

@@ -1,0 +1,60 @@
+.sans-serif {
+    font-family: 'Arial', sans-serif;
+}
+
+.serif {
+    font-family: 'Times New Roman', serif;
+}
+
+.monospace {
+    font-family: 'Courier New', monospace;
+}
+.small-font {
+    font-size: 12px;
+}
+
+.medium-font {
+    font-size: 18px;
+}
+
+.large-font {
+    font-size: 24px;
+}
+.light-weight {
+    font-weight: 100;
+}
+
+.bold-weight {
+    font-weight: 1000;
+}
+.normal-style {
+    font-style: normal;
+}
+
+.italic-style {
+    font-style: italic;
+}
+.tight-line-height {
+    line-height: 1;
+}
+
+.normal-line-height {
+    line-height: 2;
+}
+
+.loose-line-height {
+    line-height: 3;
+}
+.uppercase-text {
+    text-transform: uppercase;
+}
+
+.lowercase-text {
+    text-transform: lowercase;
+}
+
+.capitalize-text {
+    text-transform: capitalize;
+}
+
+

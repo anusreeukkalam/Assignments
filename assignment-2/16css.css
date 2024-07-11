@@ -1,0 +1,98 @@
+
+
+
+.btn-hover {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #3a91ed;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-hover:hover {
+    background-color: #0056b3;
+}
+
+.btn-active {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #11e843;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-active:hover {
+    background-color: #1e7e36;
+}
+
+.input-focus {
+    padding: 10px;
+    margin: 10px;
+    border: 3px solid #ccc;
+}
+
+.input-focus:hover {
+    border-color: #000000;
+}
+
+.nth-child-demo li {
+    padding: 5px;
+    list-style: none;
+}
+
+.nth-child-demo li:nth-child(odd) {
+    background-color: #f4acac;
+}
+
+.nth-child-demo li:nth-child(even) {
+    background-color: #f3e2a8;
+}
+
+
+.before-demo::before {
+    content: "Note: ";
+    color: red;
+    font-weight: bold;
+}
+
+.after-demo::after {
+    content: " - Important!";
+    color: red;
+    font-weight: bold;
+}
+
+.box {
+    position: relative;
+    width: 550px;
+    height: 200px;
+    margin: 20px auto;
+    background-color: orangered;
+    color: white;
+    text-align: center;
+    line-height: 200px;
+    font-size: 1.5em;
+}
+
+.box::before, .box::after {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #0056b3;
+}
+
+.box::before {
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+}
+
+.box::after {
+    bottom: -25px;
+    right: 50%;
+    transform: translateX(50%);
+    border-radius: 50%;
+}

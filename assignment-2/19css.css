@@ -1,0 +1,28 @@
+
+
+.btn-primary {
+    background-color: #97bde5;
+    border-color: #0062cc;
+}
+
+.btn-primary:hover {
+    background-color: #137bea;
+    border-color: #004885;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #ddd;
+}
+
+.navbar .navbar-nav .nav-item.active .nav-link {
+    color: #ccc;
+}

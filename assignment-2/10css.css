@@ -1,0 +1,118 @@
+.content, .sidebar {
+    padding: 1em;
+}
+
+.sidebar {
+    background-color: #f4f4f4;
+}
+
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5em;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+body {
+    font-size: 14px;
+}
+
+.content, .sidebar {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 16px;
+    }
+
+    main {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .content {
+        width: 70%;
+    }
+
+    .sidebar {
+        width: 30%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav a {
+        display: inline-block;
+        margin: 0 1em;
+    }
+}
+
+
+@media (min-width: 900px) {
+    body {
+        font-size: 18px;
+    }
+
+    header, footer {
+        padding: 2em 0;
+    }
+
+    main {
+        justify-content: space-between;
+    }
+
+    .content {
+        order: 2;
+    }
+
+    .sidebar {
+        order: 1;
+    }
+
+    .sidebar p {
+        display: block;
+    }
+
+    nav {
+        padding: 1em;
+    }
+
+    nav a {
+        margin: 0 1.5em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .content {
+        width: 75%;
+    }
+
+    .sidebar {
+        width: 25%;
+    }
+
+    .sidebar p {
+        font-size: 1.1em;
+    }
+}

@@ -1,0 +1,36 @@
+.box {
+    width: 200px;
+    height: 100px;
+    margin: 1em auto;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    background-color: #333;
+    font-size: 1.2em;
+    border-radius: 10px;
+    transition: transform 0.5s ease;
+    cursor: pointer;
+}
+.translate-box:hover {
+    transform: translate(-50px,-50px);
+}
+
+/* Rotate */
+.rotate-box:hover {
+    transform: rotate(45deg);
+}
+
+/* Scale */
+.scale-box:hover {
+    transform: scale(1.5);
+}
+
+/* Skew */
+.skew-box:hover {
+    transform: skew(20deg, 10deg);
+}
+
+/* Complex */
+.complex-box:hover {
+    transform: translate(30px, 30px) rotate(30deg) scale(1.2) skew(10deg, 15deg);
+}
